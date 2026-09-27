@@ -1,0 +1,103 @@
+{
+  "slug": "microwaveclear",
+  "box": 8,
+  "date": "2026-10-01",
+  "title": "MicrowaveClear",
+  "question": "How does a microwave oven work?",
+  "hook": "A microwave oven is a radio transmitter in a metal box. Electrons whirl in a magnetron to make 12 cm waves that twist water molecules 2.45 billion times a second. Take one apart in 3D and find the hot spots.",
+  "thumbText": "HOW A MICROWAVE WORKS",
+  "field": "physics",
+  "minutes": 15,
+  "tags": [
+    "microwave oven",
+    "magnetron",
+    "microwaves",
+    "dielectric heating",
+    "standing waves",
+    "electromagnetic waves",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "A radio transmitter in a metal box",
+      "text": "A transformer, a capacitor and a diode turn mains electricity into about 4,000 volts. That powers a magnetron, which makes microwaves. A metal duct called the waveguide pipes them into the cooking box, whose metal walls bounce them around until the food soaks them up."
+    },
+    {
+      "title": "Electrons whirling past copper cavities",
+      "text": "In the magnetron, electrons boil off a hot cathode and rush towards a copper anode. Strong magnets bend their paths so they swirl past ten little cavities, which ring like whistles 2.45 billion times a second. The waves are about 12.2 cm long, and about 65% of the power going in comes out as microwaves."
+    },
+    {
+      "title": "Twisting water molecules",
+      "text": "Water molecules have a positive end and a negative end. The microwave field flips 2.45 billion times a second, twisting them back and forth against their neighbours, and that jostling is heat. Ice molecules are locked in a crystal and barely absorb, which is why defrosting is so uneven."
+    },
+    {
+      "title": "It doesn't cook from the inside out",
+      "text": "In wet food, most of the microwave power is used up in the outer 1 to 2 cm. The middle warms more slowly as heat conducts inwards, which is why recipes tell you to stir or let food stand."
+    },
+    {
+      "title": "Hot spots 6 cm apart",
+      "text": "Waves bouncing between the walls add up into a standing wave with hot and cold spots about half a wavelength, 6 cm, apart. The turntable carries the food through them. Measure the melted spots on a chocolate bar and you can work out the speed of light."
+    },
+    {
+      "title": "Safe by design, and 50% means on and off",
+      "text": "The door's mesh holes are about 1 to 2 mm across, far too small for a 12 cm wave to squeeze through, and interlock switches cut the power when it opens. On most ovens, 50% power means full power switched on and off; inverter ovens can really turn the magnetron down."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Magnetron",
+      "def": "A vacuum tube where electrons, bent by magnets, swirl past resonant cavities and make microwaves."
+    },
+    {
+      "term": "Waveguide",
+      "def": "A hollow metal duct that carries microwaves from the magnetron to the cooking cavity."
+    },
+    {
+      "term": "Frequency",
+      "def": "How many times a second a wave repeats. Microwave ovens use 2.45 GHz, 2.45 billion times a second."
+    },
+    {
+      "term": "Wavelength",
+      "def": "The length of one cycle of a wave: its speed divided by its frequency. About 12.2 cm in a microwave oven."
+    },
+    {
+      "term": "Dielectric heating",
+      "def": "Heating by a rapidly flipping electric field that twists polar molecules such as water against their neighbours."
+    },
+    {
+      "term": "Penetration depth",
+      "def": "How far microwaves reach into a material before most of their power is used up: about 1.7 cm in water."
+    },
+    {
+      "term": "Standing wave",
+      "def": "A wave pattern that stays in place, made when waves reflect and overlap, with fixed hot spots and nodes."
+    },
+    {
+      "term": "Interlock",
+      "def": "A switch that only lets the oven run while the door is fully closed."
+    },
+    {
+      "term": "Duty cycle",
+      "def": "The share of time something is switched on. 50% power on a classic oven means on half the time."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "microwaveclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
